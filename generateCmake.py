@@ -13,7 +13,7 @@ if __name__ == '__main__':
     dir = args.dirname
     path = args.path
 
-    dir = path + dir
+    dir = path + "/" + dir
     if not os.path.exists(dir):
         os.makedirs(dir)
         os.makedirs(dir + '/include')
