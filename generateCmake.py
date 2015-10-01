@@ -35,5 +35,6 @@ if __name__ == '__main__':
                    "int main(int argc, char** argv){\n" +
                    "    std::cout << \"Hello World\" << std::endl;\n"+
                    "}\n")
+        print("Done")
     else:
         print('File exists')
